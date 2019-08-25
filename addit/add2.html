@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+     .error {
+       border-width: 2px;
+       border-color: red;
+       border-style: solid;
+     }
+    </style>
+  </head>
+  <body>
+    <div>
+      <span>A: </span>
+      <input type="text" id="valuea"/>
+    </div>
+    <div>
+      <span>B: </span>
+      <input type="text" id="valueb"/>
+    </div>
+    <div>
+      <span id="results">Waiting </span>
+    </div>
+  </body>
+  <script src="https://cdn.bootcss.com/ramda/0.26.1/ramda.min.js"></script>
+  <script src="https://cdn.bootcss.com/rxjs/6.5.2/rxjs.umd.min.js"></script>
+  <script src="./add2.js"></script>
+</html>

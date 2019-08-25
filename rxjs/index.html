@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+     .box {
+       position: relative;
+       width: 150px;
+       height: 150px;
+       background: black;
+       cursor: pointer;
+       z-index: 3;
+     }
+     .box2 {
+       position: relative;
+       width: 150px;
+       height: 150px;
+       background: red;
+       cursor: pointer;
+     }
+    </style>
+  </head>
+  <body>
+    <div class="box" ></div>
+    <div class="box2"></div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/6.5.2/rxjs.umd.min.js"></script>
+  <script src="./drag.js"></script>
+</html>
